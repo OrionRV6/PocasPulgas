@@ -1,17 +1,29 @@
 # Pocas Pulgas - Clínica Veterinaria 🐾
 
-Plataforma web integral para la gestión médica y agendamiento de la clínica veterinaria "Pocas Pulgas". El proyecto consta de una API REST para el manejo de datos y una interfaz de usuario moderna.
+Página web (Landing Page) para la clínica veterinaria "Pocas Pulgas". Permite visualizar información sobre sucursales, servicios médicos, urgencias y vías de contacto directo.
+
+El proyecto está desarrollado utilizando **React, Vite y Tailwind CSS**.
 
 ## Requisitos Previos
 
-Para ejecutar este proyecto de manera local, necesitas tener instalado:
+Para ejecutar este proyecto de manera local en tu computador, necesitas instalar:
 *   [Node.js](https://nodejs.org/) (incluye npm)
-*   [Docker Desktop](https://www.docker.com/) (para levantar la base de datos y la API)
 *   [Git](https://git-scm.com/)
 
-## 🚀 Instalación y Despliegue
+## 🚀 Instalación y Despliegue Local
 
-Primero, clona el repositorio y entra a la carpeta principal:
-```bash
-git clone [https://github.com/tu-usuario/pocas-pulgas.git](https://github.com/tu-usuario/pocas-pulgas.git)
-cd "Pocas Pulgas"
+Sigue estos pasos en tu terminal para correr la página:
+
+## 1. Clonar el repositorio y entrar a la carpeta del proyecto:**
+
+git clone [https://github.com/OrionRV6/PocasPulgas.git](https://github.com/OrionRV6/PocasPulgas.git)
+cd PocasPulgas/veterinaria-app
+
+## 2. Instalar las dependencias:
+
+npm install
+
+## 3. Iniciar el servidor de desarrollo:
+
+npm run dev
+La plataforma estará disponible inmediatamente abriendo http://localhost:5173 en tu navegador.
